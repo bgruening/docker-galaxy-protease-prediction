@@ -1,6 +1,6 @@
 # Galaxy - Protease Prediction
 
-FROM bgruening/galaxy-stable:16.01
+FROM bgruening/galaxy-stable:dev
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
