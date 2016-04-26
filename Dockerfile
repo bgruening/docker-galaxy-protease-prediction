@@ -1,6 +1,6 @@
 # Galaxy - Protease Prediction
 
-FROM quay.io/bgruening/galaxy-protease-prediction:dev
+FROM quay.io/bgruening/galaxy:dev
 
 MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
 
