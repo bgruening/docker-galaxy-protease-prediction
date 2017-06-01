@@ -21,7 +21,7 @@ before_install:
 
 install:
   - make install
-  - cd /home/galaxy/bioblend-master && sudo su $(GALAXY_TRAVIS_USER) -c 'pip install six --user'
+  - sudo su $(GALAXY_TRAVIS_USER) -c 'pip install six --user'
 
 script:
   - make test_api
